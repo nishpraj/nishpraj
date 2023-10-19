@@ -1,0 +1,129 @@
+body {                                              /* This element Styles the Body Element of HTML */
+	display: block;										  /* Displays the content as a Block */ 
+	background-image: url("bg3.jpg");	
+	width:100%;                                       /*Makes the page Responsive to multiple sizes of screen*/
+	background-size: cover;                           /* Sets the background image size */
+	background-position:bottom;							/* Sets the position of background image */
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+	margin: 20px;
+
+}
+h1{                                               /* This Element makes Changes to the H1 Element of HTML */ 
+    color: #8b4ba1;
+    font-family: 'Segoe Print';
+    font-size: 65px;                                    /* Sets the font size of the element */
+    text-align: center;
+ }
+h2{                                              /* This element styles the H2 of HTML */
+    color: purple;
+    margin-left: 50px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+	font-size: 28px;
+} 
+h3{                                          
+	color: black;									/* Sets the color of this particular element of HTML */
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;   							/* Aligns the Text of the element */
+	font-size:15px;
+}
+h4 {
+	color: Purple;
+	text-align: center;
+}
+p{                                                    /* Styles the 'p' Element of the HTML */
+    display: block;                           
+	color:black;
+    margin-left: 50px;
+	margin-right: 50px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+}
+table, th, td {                         /* Styles the Table element in HTML */           
+  border-bottom: 1px solid #ddd;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+th {                                     /* Styles the Heading part of the Table Element in HTML */ 
+  background-color: #decdff;
+  color: Purple
+}
+tr {
+	background-color:#f9f9f9;
+}
+tr:hover {background-color: LightGray;}   /* Makes the Table row to hover with the mouse-cursor */
+
+table{ 
+	width:90%;
+	border-collapse:collapse;
+}
+menu {                                     /* Styles the menu element of HTML */
+	color:Red;
+	font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+}
+nav {                                            /* Styles the Navigation Element of HTML */
+	color:red;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+ol{                                        /* Makes changes to the OL element of HTML */
+    
+    font-family: 'Times New Roman', sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+    text-align: center;
+
+}
+li{                               /* Styles the Li element of Html */
+	color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	
+}
+
+div{                                  /* Defines the particular section of HTML */
+	background-color:LightGray ;
+ 	width:90% ;
+	border:5px;                       /* Sets the Border of the Element/Content in HTML */
+	border-radius: 35px;              /* Styles the corners of the Block element */
+	margin-left:30px;
+	margin-right:30px;
+}
+
+.button {                             /* Creates a Button and styles it in the HTML */ /* Content Reffered from W3 Schools */
+  background-color: LightGray;
+  border-radius:10px;
+  color: purple;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;                                         /* Changes the Cursor Icon */
+}
+.button:hover {                     /* Makes the button hover with the mouse cursor */
+  background-color: purple;
+  color: white;
+}
+.button1 {                                                                              /* Content Reffered from W3 Schools */
+  background-color: LightGray;
+  border-radius:5px;
+  color: purple;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;                                             /* Changes the Cursor Icon */
+}
+.button1:hover {                                                                       /* Content Reffered from W3 Schools */
+  background-color: purple;
+  color: white;
